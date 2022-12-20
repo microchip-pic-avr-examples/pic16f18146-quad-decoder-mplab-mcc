@@ -30,7 +30,11 @@ This example uses the PIC16F18146 to act as a user-interface co-processor, where
 
 ## Setup
 
-With the power off, install the PIC16F18146 into the socket of the Curiosity LPC board, while matching the pin 1 marker on the DIP and PCB. Connect the MCP2221A breakout to the board as follows.
+With the power off, install the PIC16F18146 into the socket of the Curiosity LPC board, while matching the pin 1 marker on the DIP and PCB (marked as 1).
+
+![Curiosity LPC](./images/LPC.png)
+
+ Connect the MCP2221A breakout to the board as follows.
 
 | IO Pin | Description
 | ------ | ---------
@@ -38,7 +42,7 @@ With the power off, install the PIC16F18146 into the socket of the Curiosity LPC
 | RB6  | SDA, I<sup>2</sup>C Data Line
 | GND | Connect the ground of the MCP2221A to the LPC board.
 
-*Important: Match the voltage of the MCP2221A breakout to the setting on the Curiosity LPC. Either +5V or 3.3V can be used, depending on the circuit requirements. Do NOT connect power from the MCP2221A to the LPC.*
+*Important: Match the voltage of the MCP2221A breakout to the setting on the Curiosity LPC (marked as 2). Either +5V or 3.3V can be used, depending on the circuit requirements. Do NOT connect power from the MCP2221A to the LPC.*
 
 Next, follow the application circuit of the encoder (if provided), and connect the encoder as follows.
 
